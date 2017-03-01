@@ -19,7 +19,7 @@ function createTemplate(data){
     var content=data.content;
 
 var htmlTemplate='<html><head> <title> ${title}</title></head><body><div class="center"><a href="/">Home</a></div> <br><h3> ${heading}</h3><br> <div>${date}</div> <div>  ${content}</div></body></html>';
-return htmltemplate;
+return htmlTemplate;
 }
 
 app.get('/article-one', function (req, res) {
